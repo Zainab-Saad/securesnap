@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]  # Tools required for building your package
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "security-attacks"
+version = "0.1.0"
+description = "These are the security attacks."
+authors = [
+    { name = "Zainab Saad", email = "zainab.saad567@gmail.com" }
+]
+dependencies = [
+    "requests>=2.28.0",
+    "pyshark>=0.4.2"
+]
