@@ -1,0 +1,4 @@
+# Ignore all .key, .pem, and .txt files
+*.key
+*.pem
+*.txt
